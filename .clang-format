@@ -1,0 +1,63 @@
+# This format style should be used for C, C++
+Language: Cpp
+# The style used for all options not specifically set in the configuration
+BasedOnStyle: LLVM
+# Align array column and right justify the columns
+AlignArrayOfStructures: Right
+# Style of aligning consecutive assignments
+AlignConsecutiveAssignments:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: true
+  AlignCompound: false
+  PadOperators: false
+# Style of aligning consecutive bit fields
+AlignConsecutiveBitFields:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: true
+# Style of aligning consecutive macro definitions
+AlignConsecutiveMacros:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: true
+# Align escaped newlines as far left as possible
+AlignEscapedNewlines: Left
+# If a function call or braced initializer list doesn’t fit on a line, allow putting all arguments onto the next line
+AllowAllArgumentsOnNextLine: false
+# If the function declaration doesn’t fit on a line, allow putting all parameters of a function declaration onto the next line
+AllowAllParametersOfDeclarationOnNextLine: false
+# If true, short case labels will be contracted to a single line
+AllowShortCaseLabelsOnASingleLine: false
+# Allow short enums on a single line
+AllowShortEnumsOnASingleLine: false
+# Never merge functions into a single line
+AllowShortFunctionsOnASingleLine: None
+# Never put short ifs on the same line
+AllowShortIfStatementsOnASingleLine: Never
+# If false, a function call’s arguments will either be all on the same line or will have one line each
+BinPackArguments: false
+# If false, a function declaration’s or function definition’s parameters will either all be on the same line or will have one line each
+BinPackParameters: false
+# Add space after the `:` only
+BitFieldColonSpacing: After
+# Always break before braces
+BreakBeforeBraces: Allman
+# Break before operators that aren’t assignments
+BreakBeforeBinaryOperators: NonAssignment
+# The column limit
+ColumnLimit: 80
+# Includes are never sorted
+SortIncludes: Never
+# Indent case labels one level from the switch statement
+IndentCaseLabels: true
+# Does not indent any directives
+IndentPPDirectives: None
+# The number of columns to use for indentation
+IndentWidth: 4
+# Align pointer to the left
+PointerAlignment: Left
+# If false, spaces will be removed before assignment operator
+SpaceBeforeAssignmentOperators: true
+# Never use tab
+UseTab: Never
