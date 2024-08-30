@@ -1,5 +1,5 @@
-#include <gtest/gtest.h>
 #include "trangle.h"
+#include <gtest/gtest.h>
 
 namespace
 {
