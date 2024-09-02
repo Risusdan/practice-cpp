@@ -61,3 +61,5 @@ PointerAlignment: Left
 SpaceBeforeAssignmentOperators: true
 # Never use tab
 UseTab: Never
+# Specify whether access modifiers should have their own indentation level
+IndentAccessModifiers: true
