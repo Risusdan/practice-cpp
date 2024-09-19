@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "trangle.h"
+#include "../../src/example/trangle.h"
 
 TEST(DISABLED_TriangleTest, InvalidInput)
 {

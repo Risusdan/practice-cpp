@@ -5,6 +5,7 @@ LDFLAGS := -L/mingw32/lib -lgtest -lgtest_main -pthread
 
 # Directories
 SRC_DIR := src
+TEST_DIR := test
 BUILD_DIR := build
 BIN_DIR := bin
 
@@ -13,6 +14,7 @@ TARGET := $(BIN_DIR)/TestResult.exe
 
 # Source files
 SRCS := $(wildcard $(SRC_DIR)/*/*.cpp)
+SRCS += $(wildcard $(TEST_DIR)/*/*.cpp)
 OBJS := $(patsubst $(SRC_DIR)/%.cpp,$(BUILD_DIR)/%.o,$(SRCS))
 
 # Ensure build and bin directories exist
