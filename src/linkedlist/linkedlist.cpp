@@ -18,7 +18,7 @@ using namespace std;
 
 /**
  * @brief Prints the values of all nodes in the linked list.
- * 
+ *
  * @return void
  */
 void LinkedList::printList()
@@ -26,14 +26,13 @@ void LinkedList::printList()
     Node* temp = head;
     while (temp != nullptr)
     {
-        cout << temp->value << endl;
         temp = temp->next;
     }
 }
 
 /**
  * @brief Gets the value of the head node.
- * 
+ *
  * @return The value of the head node, or -1 if the list is empty.
  */
 int LinkedList::getHead()
@@ -43,7 +42,7 @@ int LinkedList::getHead()
 
 /**
  * @brief Gets the value of the tail node.
- * 
+ *
  * @return The value of the tail node, or -1 if the list is empty.
  */
 int LinkedList::getTail()
@@ -53,7 +52,7 @@ int LinkedList::getTail()
 
 /**
  * @brief Gets the length of the linked list.
- * 
+ *
  * @return The number of nodes in the linked list.
  */
 int LinkedList::getLength()
@@ -63,10 +62,9 @@ int LinkedList::getLength()
 
 /**
  * @brief Appends a new node with the given value to the end of the linked list.
- * 
+ *
  * @param value The value to be added to the new node.
  */
 void LinkedList::append(int value)
 {
-
 }
