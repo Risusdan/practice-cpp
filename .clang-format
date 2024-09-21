@@ -42,7 +42,7 @@ BinPackParameters: false
 # Add space after the `:` only
 BitFieldColonSpacing: After
 # Always break before braces
-BreakBeforeBraces: Allman
+BreakBeforeBraces: Linux
 # Break before operators that aren’t assignments
 BreakBeforeBinaryOperators: NonAssignment
 # The column limit
