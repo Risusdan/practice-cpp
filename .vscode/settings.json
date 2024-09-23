@@ -25,5 +25,9 @@
         "titleBar.inactiveBackground": "#37566999",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.color": "#375669"
+    "peacock.color": "#375669",
+    "files.associations": {
+        "ostream": "cpp",
+        "iostream": "cpp"
+    }
 }
